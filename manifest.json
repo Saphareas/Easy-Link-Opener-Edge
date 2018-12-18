@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+
+    "name": "Link Opener",
+    "version": "1.0.0",
+    "description": "Enables you to open selected links in a new tab/window ... in Edge.",
+    "author": "Fabian Große",
+
+    "default_locale": "en",
+
+    "icons": {
+        "36": "icon.svg",
+        "48": "icon.svg",
+        "96": "icon.svg"
+    },
+
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+    }],
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+
+    "permissions": ["menus"]
+}

@@ -1,0 +1,16 @@
+{
+    "openInNewTab": {
+        "message": "URL in neuem Tab öffnen",
+        "description": "Lorem ipsum"
+    },
+
+    "openInNewWindow": {
+        "message": "URL in neuem Fenster öffnen",
+        "description": "Lorem ipsum"
+    },
+
+    "openInNewPrivateWindow": {
+        "message": "URL in neuem privaten Fenster öffnen",
+        "description": "Lorem ipsum"
+    }
+}
