@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "Link Opener",
+    "name": "Easy Link Opener",
     "version": "1.0.0",
     "description": "Enables you to open selected links in a new tab/window ... in Edge.",
     "author": "Fabian Große",
